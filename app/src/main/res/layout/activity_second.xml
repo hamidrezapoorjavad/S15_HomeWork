@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_constrain_pink"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/edtSecondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape_edt"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/sdt_second_activity"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSecondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/click"
+        app:layout_constraintEnd_toEndOf="@+id/edtSecondActivity"
+        app:layout_constraintStart_toStartOf="@+id/edtSecondActivity"
+        app:layout_constraintTop_toBottomOf="@+id/edtSecondActivity" />
+</androidx.constraintlayout.widget.ConstraintLayout>

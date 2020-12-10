@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">S15_HomeWork</string>
+    <string name="sdt_second_activity">Enter your name</string>
+    <string name="click">Click</string>
+    <string name="log_in">LOG IN</string>
+    <string name="log_in1">LOG IN</string>
+    <string name="password">Password</string>
+    <string name="url">having trouble with loging in?Get help more</string>
+    <string name="email_or_username">Email or username</string>
+</resources>
